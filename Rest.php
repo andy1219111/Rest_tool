@@ -4,6 +4,7 @@
  * 
  * @author aaron<andy1219111@163.com>
  * @version 2014-10-10
+ * @description rest请求工具类
  */
 class Rest{		
 	/*
