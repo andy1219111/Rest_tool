@@ -5,6 +5,7 @@ Rest_tool
 
 ## 发起get请求
 
-`$rest = new Rest();
+```
+$rest = new Rest();
 
-`
+```
