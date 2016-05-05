@@ -6,7 +6,7 @@ Rest_tool
 ## 发起get请求
 
 ```
-$rest = new Rest();
+$rpc_client = new Rest();
 $response = $rpc_client->curlInit($sever_url,$query_array,'GET');
 //请求成功
 if($response[0] == 0 && $response[2] == 200)
@@ -23,7 +23,7 @@ else
 
 ## 发起post请求
 ```
-$rest = new Rest();
+$rpc_client = new Rest();
 $response = $rpc_client->curlInit($sever_url,arrayu(),'POST',$post_data);
 //请求成功
 if($response[0] == 0 && $response[2] == 200)
